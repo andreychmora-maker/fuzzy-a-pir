@@ -30,7 +30,7 @@ All performance benchmarks and algebraic checks can be executed directly in the 
 
 ### 📚 Academic Citation
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23677112.svg)](https://doi.org/10.5281/zenodo.19388301)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19388301.svg)](https://doi.org/10.5281/zenodo.19388301)
 
 If you utilize these scripts in your research,
 please cite the associated archive:
