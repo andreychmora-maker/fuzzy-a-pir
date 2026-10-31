@@ -1,4 +1,11 @@
-/* Benchmark: Fuzzy A-PIR Algebraic & Half-Tuple Homomorphic Verification */
+/* ==========================================================================
+ * Script:      half-tuple.m
+ * Protocol:    Fuzzy A-PIR (Half-Tuple Homomorphic Compression & RS Engine)
+ * Environment: Magma Online Calculator (http://magma.maths.usyd.edu.au/calc/)
+ * Description: End-to-end verification of Base-3 Homomorphic XOR over
+ *              Curve25519 with Half-Tuple Server Evaluation and explicit
+ *              parity-extended Non-Systematic Reed-Solomon [256, 192, 65]_256
+ * ========================================================================== */
 clear;
 
 /* PART 1: CRYPTO PRIMITIVES & O(1) LUT ECDLP */
@@ -64,7 +71,7 @@ end function;
 
 /* PART 3: DOMAIN SETUP & PRECOMPUTATION */
 k := 8; // 1 byte per Homomorphic Operation (eta = 8)
-printf "\n--- TOY DOMAIN SETUP (Online Calculator) ---\n";
+printf "\n--- FUZZY A-PIR SETUP (Magma Online Calculator: half-tuple.m) ---\n";
 t_start := Cputime();
 
 p := 2^255 - 19;
@@ -86,7 +93,7 @@ MySecretKey := MyKeys[2];
 printf "Setup completed in %.3o sec.\n", Cputime(t_start);
 
 /* PART 4: FAST END-TO-END HALF-TUPLE BENCHMARK */
-printf "\n--- STARTING FAST PROTOCOL BENCHMARK ([256, 192, 65]_256) ---\n";
+printf "\n--- STARTING HALF-TUPLE PROTOCOL BENCHMARK ([256, 192, 65]_256) ---\n";
 msg_vec := Random(VectorSpace(F, k_dim));
 
 // 1. Encode 255-symbol non-systematic RS codeword and append 256-th overall parity symbol
