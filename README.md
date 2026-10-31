@@ -24,3 +24,21 @@ All performance benchmarks and algebraic checks can be executed directly in the 
 1. Open the [Magma Online Calculator](http://magma.maths.usyd.edu.au/calc/).
 2. Copy and paste the contents of `half-tuple.m`.
 3. Execute to verify protocol correctness, Half-Tuple throughput, and payload integrity.
+
+### 📚 Academic Citation
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23677112.svg)](https://doi.org/10.5281/zenodo.19388301)
+
+If you utilize these scripts in your research,
+please cite the associated archive:
+
+```bibtex
+@misc{chmora2026fuzzyapir,
+  author       = {Andrey Chmora},
+  title        = {Stealth ABBE: Carry-Free Homomorphic Packing and Blind Reed–Solomon Decoding},
+  month        = {Oct},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = 10.5281/zenodo.19388301
+  url          = [https://zenodo.org/badge/DOI/10.5281/zenodo.19388301.svg](https://doi.org/10.5281/zenodo.19388301)
+}
