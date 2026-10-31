@@ -39,6 +39,6 @@ please cite the associated archive:
   month        = {Oct},
   year         = {2026},
   publisher    = {Zenodo},
-  doi          = 10.5281/zenodo.19388301
+  doi          = {10.5281/zenodo.19388301}
   url          = [https://zenodo.org/badge/DOI/10.5281/zenodo.19388301.svg](https://doi.org/10.5281/zenodo.19388301)
 }
