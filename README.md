@@ -1,5 +1,8 @@
 ## Fuzzy A-PIR Verification Suite (`half-tuple.m`)
 
+[![Magma Compatible](https://img.shields.io/badge/Language-Magma%20V2.29.10-blue.svg)](http://magma.maths.usyd.edu.au/)
+[![Code Rate](https://img.shields.io/badge/Code%20Rate-R%3D0.75-green.svg)]()
+
 This repository includes a standalone verification script (`half-tuple.m`) for the **Fuzzy A-PIR** protocol, implemented in the Magma Computational Algebra System. 
 
 All performance benchmarks and algebraic checks can be executed directly in the public **Magma Online Calculator**, ensuring instant and license-free reproducibility.
