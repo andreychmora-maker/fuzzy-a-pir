@@ -38,7 +38,7 @@ please cite the associated archive:
 ```bibtex
 @misc{chmora2026fuzzyapir,
   author       = {Andrey Chmora},
-  title        = {Stealth ABBE: Carry-Free Homomorphic Packing and Blind Reed–Solomon Decoding},
+  title        = {Scalable Fuzzy Private Information Retrieval: Homomorphic Record Linkage in the Hamming Metric},
   month        = {Oct},
   year         = {2026},
   publisher    = {Zenodo},
